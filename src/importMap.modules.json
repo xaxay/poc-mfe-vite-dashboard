@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@browser-module/config/routes": "https://xaxay.github.io/poc-mfe-vite-root/src/config/routes.ts",
+    "@browser-module/api/user": "https://xaxay.github.io/poc-mfe-vite-root/src/api/user.ts",
+    "@browser-module/api/nav": "https://xaxay.github.io/poc-mfe-vite-root/src/api/nav.ts",
+
+    "@browser-module/ui/header": "/src/components/Dashboard.vue"
+  }
+}
