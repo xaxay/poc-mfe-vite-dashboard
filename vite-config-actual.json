@@ -1,5 +1,5 @@
 {
-  "base": "/poc-mfe-vite/",
+  "base": "/poc-mfe-vite-dashboard/",
   "plugins": [
     {
       "name": "vite:optimized-deps"
@@ -314,18 +314,18 @@
       },
       {
         "find": "@browser-module/config/routes",
-        "replacement": "https://xaxay.github.io/poc-mfe-vite-root/src/config/routes.ts"
+        "replacement": "http://localhost:6001/poc-mfe-vite-root/src/config/routes.ts"
       },
       {
         "find": "@browser-module/api/user",
-        "replacement": "https://xaxay.github.io/poc-mfe-vite-root/src/api/user.ts"
+        "replacement": "http://localhost:6001/poc-mfe-vite-root/src/api/user.ts"
       },
       {
         "find": "@browser-module/api/nav",
-        "replacement": "https://xaxay.github.io/poc-mfe-vite-root/src/api/nav.ts"
+        "replacement": "http://localhost:6001/poc-mfe-vite-root/src/api/nav.ts"
       },
       {
-        "find": "@browser-module/ui/header",
+        "find": "@browser-module/ui/dashboard",
         "replacement": "/src/components/Dashboard.vue"
       },
       {
@@ -370,7 +370,7 @@
       "output": {},
       "preserveEntrySignatures": "strict",
       "input": {
-        "@browser-module/ui/header": "/src/components/Dashboard.vue"
+        "@browser-module/ui/dashboard": "/src/components/Dashboard.vue"
       }
     },
     "minify": "esbuild",
@@ -429,7 +429,7 @@
     "preview": {}
   },
   "root": "/home/mpopel/lab/poc-mfe-vite-dashboard",
-  "rawBase": "/poc-mfe-vite/",
+  "rawBase": "/poc-mfe-vite-dashboard/",
   "publicDir": "/home/mpopel/lab/poc-mfe-vite-dashboard/public",
   "cacheDir": "/home/mpopel/lab/poc-mfe-vite-dashboard/node_modules/.vite",
   "command": "serve",
@@ -444,7 +444,7 @@
   },
   "envDir": "/home/mpopel/lab/poc-mfe-vite-dashboard",
   "env": {
-    "BASE_URL": "/poc-mfe-vite/",
+    "BASE_URL": "/poc-mfe-vite-dashboard/",
     "MODE": "production",
     "DEV": false,
     "PROD": true
